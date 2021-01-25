@@ -6,10 +6,7 @@
 			"name": "Dave Weiss",
 			"email": "dweiss@spauldingridge.com"
 		}
-	],
-	"require": {
-		"wsdl2phpgenerator/wsdl2phpgenerator": "dev-add-countable-implements"
-	},
+	]
     "autoload": {
         "psr-4": {
             "SpauldingRidge\\SuiteTalk\\": "src"
@@ -22,11 +19,5 @@
                 "SpauldingRidge\\SuiteTalk\\SuiteTalkServiceProvider"
             ]
         }
-    },
-	"repositories":[
-		{
-			"type": "vcs",
-			"url": "https://github.com/SpauldingRidgeAdvisory/wsdl2phpgenerator"
-		}
-	]
+    }
 }
