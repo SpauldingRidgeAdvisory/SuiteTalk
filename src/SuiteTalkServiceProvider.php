@@ -9,7 +9,7 @@ class SuiteTalkServiceProvider extends ServiceProvider
 {
 
     protected $commands=[
-		"SpaudlingRidge\\SuiteTalk\\Console\\GenerateClasses"
+		"SpaudlingRidge\SuiteTalk\Console\GenerateClasses"
 	];
     /**
      * Register services.
