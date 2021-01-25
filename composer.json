@@ -1,15 +1,15 @@
 {
     "name": "spauldingridge/suitetalk",
     "description": "Spaulding Ridge LLC NetSuite SuiteTalk package for Laravel",
-    "require": {
-		"wsdl2phpgenerator/wsdl2phpgenerator": "dev-add-countable-implements"
-	}
 	"authors": [
-        {
-            "name": "Dave Weiss",
-            "email": "dweiss@spauldingridge.com"
-        }
-    ],
+		{
+			"name": "Dave Weiss",
+			"email": "dweiss@spauldingridge.com"
+		}
+	],
+	"require": {
+		"wsdl2phpgenerator/wsdl2phpgenerator": "dev-add-countable-implements"
+	},
     "autoload": {
         "psr-4": {
             "SpauldingRidge\\SuiteTalk\\": "src"
