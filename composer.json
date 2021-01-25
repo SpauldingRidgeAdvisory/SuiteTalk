@@ -6,7 +6,7 @@
 			"name": "Dave Weiss",
 			"email": "dweiss@spauldingridge.com"
 		}
-	]
+	],
     "autoload": {
         "psr-4": {
             "SpauldingRidge\\SuiteTalk\\": "src"
