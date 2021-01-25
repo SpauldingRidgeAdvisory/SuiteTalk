@@ -45,7 +45,7 @@ class GenerateClasses extends Command
             new Config(
                 array(
                     'inputFile' => config('suitetalk.wsdl'),
-                    'outputDir' => dirname(dirname(__FILE__)) . 'Service',
+                    'outputDir' => dirname(dirname(__FILE__)) . '/Service',
                     'namespaceName' => 'SpauldingRidge\SuiteTalk\Service',
                     'soapClientClass' => '\SoapClient',
                     'verbose' => true
