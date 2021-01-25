@@ -8,7 +8,9 @@ use Illuminate\Support\ServiceProvider;
 class SuiteTalkServiceProvider extends ServiceProvider
 {
 
-    
+    protected $commands=[
+		"SpaudlingRidge\\SuiteTalk\\Console\\GenerateClasses"
+	];
     /**
      * Register services.
      *
