@@ -1,0 +1,23 @@
+{
+    "name": "spauldingridge/suitetalk",
+    "description": "Spaulding Ridge LLC NetSuite SuiteTalk package for Laravel",
+    "authors": [
+        {
+            "name": "Dave Weiss",
+            "email": "dweiss@spauldingridge.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SpauldingRidge\\SuiteTalk\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpauldingRidge\\SuiteTalk\\SuiteTalkServiceProvider"
+            ]
+        }
+    }
+}
