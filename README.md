@@ -5,7 +5,7 @@
 
 Become a NetSuite SuiteTalk SOAP rock star with Spaulding Ridge's SuiteTalk for Laravel! 
 
-Yes, there are several SuiteTalk SOAP packages available, but all are merely rewrites of the NetSuite SuiteTalk PHP toolkit. The Spaulding Ridge SuiteTalk for Laravel is written to work seamlessly with the [Laravel web application framework](https://laravel.com). This tight coupling gives you all the advantages of Laravel, plus a full-featured NetSuite integration.
+Yes, there are several SuiteTalk SOAP packages available, but all are merely rewrites of the NetSuite SuiteTalk PHP toolkit. Spaulding Ridge SuiteTalk for Laravel is written to work seamlessly with the [Laravel web application framework](https://laravel.com). This tight coupling gives you all the advantages of Laravel, plus a full-featured NetSuite integration.
 
 Laravel:
 
