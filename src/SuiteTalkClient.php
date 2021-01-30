@@ -100,7 +100,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function changeEmail(Service\ChangeEmailRequest $parameters)
     {
-      return $this->makeSoapCall('changeEmail', array($parameters));
+      return $this->makeSoapCall()->__soapCall('changeEmail', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -109,7 +109,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function add(Service\AddRequest $parameters)
     {
-      return $this->makeSoapCall('add', array($parameters));
+      return $this->makeSoapCall()->__soapCall('add', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -118,7 +118,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function delete(Service\DeleteRequest $parameters)
     {
-      return $this->makeSoapCall('delete', array($parameters));
+      return $this->makeSoapCall()->__soapCall('delete', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -127,7 +127,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function search(Service\SearchRequest $parameters)
     {
-      return $this->makeSoapCall('search', array($parameters));
+      return $this->makeSoapCall()->__soapCall('search', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -136,7 +136,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function searchMoreWithId(Service\SearchMoreWithIdRequest $parameters)
     {
-      return $this->makeSoapCall('searchMoreWithId', array($parameters));
+      return $this->makeSoapCall()->__soapCall('searchMoreWithId', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -145,7 +145,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function update(Service\UpdateRequest $parameters)
     {
-      return $this->makeSoapCall('update', array($parameters));
+      return $this->makeSoapCall()->__soapCall('update', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -154,7 +154,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function upsert(Service\UpsertRequest $parameters)
     {
-      return $this->makeSoapCall('upsert', array($parameters));
+      return $this->makeSoapCall()->__soapCall('upsert', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -163,7 +163,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function addList(Service\AddListRequest $parameters)
     {
-      return $this->makeSoapCall('addList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('addList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -172,7 +172,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function deleteList(Service\DeleteListRequest $parameters)
     {
-      return $this->makeSoapCall('deleteList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('deleteList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -181,7 +181,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function updateList(Service\UpdateListRequest $parameters)
     {
-      return $this->makeSoapCall('updateList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('updateList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -190,7 +190,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function upsertList(Service\UpsertListRequest $parameters)
     {
-      return $this->makeSoapCall('upsertList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('upsertList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -208,8 +208,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getList(Service\GetListRequest $parameters)
     {
-        $this->makeSoapCall();
-        return $this->makeSoapCall('getList', array($parameters), NULL, $this->soapHeaders);
+        return $this->makeSoapCall()->__soapCall('getList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -218,8 +217,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getAll(Service\GetAllRequest $parameters)
     {
-        $this->makeSoapCall();
-        return $this->makeSoapCall('getAll', array($parameters), NULL, $this->soapHeaders);
+        return $this->makeSoapCall()->__soapCall('getAll', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -228,7 +226,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getSavedSearch(Service\GetSavedSearchRequest $parameters)
     {
-      return $this->makeSoapCall('getSavedSearch', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getSavedSearch', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -237,7 +235,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getCustomizationId(Service\GetCustomizationIdRequest $parameters)
     {
-      return $this->makeSoapCall('getCustomizationId', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getCustomizationId', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -246,7 +244,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function initialize(Service\InitializeRequest $parameters)
     {
-      return $this->makeSoapCall('initialize', array($parameters));
+      return $this->makeSoapCall()->__soapCall('initialize', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -255,7 +253,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function initializeList(Service\InitializeListRequest $parameters)
     {
-      return $this->makeSoapCall('initializeList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('initializeList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -264,7 +262,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getSelectValue(Service\getSelectValueRequest $parameters)
     {
-      return $this->makeSoapCall('getSelectValue', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getSelectValue', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -273,7 +271,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getItemAvailability(Service\GetItemAvailabilityRequest $parameters)
     {
-      return $this->makeSoapCall('getItemAvailability', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getItemAvailability', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -282,7 +280,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getBudgetExchangeRate(Service\GetBudgetExchangeRateRequest $parameters)
     {
-      return $this->makeSoapCall('getBudgetExchangeRate', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getBudgetExchangeRate', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -291,7 +289,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getCurrencyRate(Service\GetCurrencyRateRequest $parameters)
     {
-      return $this->makeSoapCall('getCurrencyRate', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getCurrencyRate', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -300,7 +298,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getDataCenterUrls(Service\GetDataCenterUrlsRequest $parameters)
     {
-      return $this->makeSoapCall('getDataCenterUrls', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getDataCenterUrls', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -309,7 +307,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getPostingTransactionSummary(Service\GetPostingTransactionSummaryRequest $parameters)
     {
-      return $this->makeSoapCall('getPostingTransactionSummary', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getPostingTransactionSummary', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -318,7 +316,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getServerTime(Service\GetServerTimeRequest $parameters)
     {
-      return $this->makeSoapCall('getServerTime', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getServerTime', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -327,7 +325,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function attach(Service\AttachRequest $parameters)
     {
-      return $this->makeSoapCall('attach', array($parameters));
+      return $this->makeSoapCall()->__soapCall('attach', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -336,7 +334,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function detach(Service\DetachRequest $parameters)
     {
-      return $this->makeSoapCall('detach', array($parameters));
+      return $this->makeSoapCall()->__soapCall('detach', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -345,7 +343,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function updateInviteeStatus(Service\UpdateInviteeStatusRequest $parameters)
     {
-      return $this->makeSoapCall('updateInviteeStatus', array($parameters));
+      return $this->makeSoapCall()->__soapCall('updateInviteeStatus', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -354,7 +352,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function updateInviteeStatusList(Service\UpdateInviteeStatusListRequest $parameters)
     {
-      return $this->makeSoapCall('updateInviteeStatusList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('updateInviteeStatusList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -363,7 +361,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncAddList(Service\AsyncAddListRequest $parameters)
     {
-      return $this->makeSoapCall('asyncAddList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncAddList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -372,7 +370,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncUpdateList(Service\AsyncUpdateListRequest $parameters)
     {
-      return $this->makeSoapCall('asyncUpdateList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncUpdateList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -381,7 +379,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncUpsertList(Service\AsyncUpsertListRequest $parameters)
     {
-      return $this->makeSoapCall('asyncUpsertList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncUpsertList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -390,7 +388,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncDeleteList(Service\AsyncDeleteListRequest $parameters)
     {
-      return $this->makeSoapCall('asyncDeleteList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncDeleteList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -399,7 +397,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncGetList(Service\AsyncGetListRequest $parameters)
     {
-      return $this->makeSoapCall('asyncGetList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncGetList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -408,7 +406,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncInitializeList(Service\AsyncInitializeListRequest $parameters)
     {
-      return $this->makeSoapCall('asyncInitializeList', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncInitializeList', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -417,7 +415,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function asyncSearch(Service\AsyncSearchRequest $parameters)
     {
-      return $this->makeSoapCall('asyncSearch', array($parameters));
+      return $this->makeSoapCall()->__soapCall('asyncSearch', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -426,7 +424,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getAsyncResult(Service\GetAsyncResultRequest $parameters)
     {
-      return $this->makeSoapCall('getAsyncResult', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getAsyncResult', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -435,7 +433,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function checkAsyncStatus(Service\CheckAsyncStatusRequest $parameters)
     {
-      return $this->makeSoapCall('checkAsyncStatus', array($parameters));
+      return $this->makeSoapCall()->__soapCall('checkAsyncStatus', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -444,7 +442,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getDeleted(Service\GetDeletedRequest $parameters)
     {
-      return $this->makeSoapCall('getDeleted', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getDeleted', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -453,7 +451,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getAccountGovernanceInfo(Service\GetAccountGovernanceInfoRequest $parameters)
     {
-      return $this->makeSoapCall('getAccountGovernanceInfo', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getAccountGovernanceInfo', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -462,6 +460,6 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function getIntegrationGovernanceInfo(Service\GetIntegrationGovernanceInfoRequest $parameters)
     {
-      return $this->makeSoapCall('getIntegrationGovernanceInfo', array($parameters));
+      return $this->makeSoapCall()->__soapCall('getIntegrationGovernanceInfo', array($parameters), NULL, $this->soapHeaders);
     }
 }
