@@ -24,3 +24,5 @@ Spaulding Ridge SuiteTalk for Laravel:
 [Spaulding Ridge](https://spauldingridge) is a leading Advisory and Technology implementation firm. We are passionate about helping business leaders use technology and data to make better, faster decisions. Our clients maximize the return on their technology investment through tailored solutions, process automation and effective business enablement.
 
 We are an official Oracle Netsuite partner offering implementation and integration services.
+
+With over 200 consultants in the United States, Canada, United Kingdom, Sweden, France, and the Philippines, Spaulding Ridge has a global presence. Headquartered in Chicago, Illinois, we take pride in maintaining our midwestern roots and values.
