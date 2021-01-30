@@ -20,7 +20,7 @@ Spaulding Ridge SuiteTalk for Laravel:
 - Up and running in 10 minutes or less!
 - Proven in the field (over 1.7 million successful NetSuite transactions processed)
 
-## About Spaulding Ridge
+### About Spaulding Ridge
 [Spaulding Ridge](https://spauldingridge) is a leading Advisory and Technology implementation firm. We are passionate about helping business leaders use technology and data to make better, faster decisions. Our clients maximize the return on their technology investment through tailored solutions, process automation and effective business enablement.
 
 We are an official Oracle Netsuite partner offering implementation and integration services.
