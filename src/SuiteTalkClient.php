@@ -1,8 +1,7 @@
 <?php
 
 namespace SpauldingRidge\SuiteTalk;
-
-
+	
 use SoapHeader;
 
 
@@ -82,6 +81,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
             $this->addHeader('searchPreferences', $this->searchPreferences);
         }
 
+        return $this;
        
     }
     
@@ -91,8 +91,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function changePassword(Service\ChangePasswordRequest $parameters)
     {
-        $this->makeSoapCall();
-        return $this->__soapCall('changePassword', array($parameters), NULL, $this->soapHeaders);
+        return $this->makeSoapCall()->__soapCall('changePassword', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
@@ -200,9 +199,7 @@ class SuiteTalkClient extends Service\NetSuiteService {
      */
     public function get(Service\GetRequest $parameters)
     {
-        $this->makeSoapCall();
-        return $this->__soapCall('get', array($parameters), NULL, $this->soapHeaders);
-
+        return $this->makeSoapCall()->__soapCall('get', array($parameters), NULL, $this->soapHeaders);
     }
 
     /**
