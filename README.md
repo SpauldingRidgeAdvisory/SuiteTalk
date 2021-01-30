@@ -3,7 +3,7 @@
 ## NetSuite SuiteTalk SOAP Package for Laravel
 ## Spaulding Ridge LLC
 
-Become a NetSuite SuiteTalk SOAP rock star with Spaulding Ridge's SuiteTalk for Laravel! 
+Become a NetSuite SuiteTalk SOAP rock star with [Spaulding Ridge's](https://spauldingridge.com) SuiteTalk for Laravel! 
 
 Yes, there are several SuiteTalk SOAP packages available, but all are merely rewrites of the NetSuite SuiteTalk PHP toolkit. Spaulding Ridge SuiteTalk for Laravel is written to work seamlessly with the [Laravel web application framework](https://laravel.com). This tight coupling gives you all the advantages of Laravel, plus a full-featured NetSuite integration.
 
@@ -20,3 +20,7 @@ Spaulding Ridge SuiteTalk for Laravel:
 - Up and running in 10 minutes or less!
 - Proven in the field (over 1.7 million successful NetSuite transactions processed)
 
+## About Spaulding Ridge
+[Spaulding Ridge](https://spauldingridge) is a leading Advisory and Technology implementation firm. We are passionate about helping business leaders use technology and data to make better, faster decisions. Our clients maximize the return on their technology investment through tailored solutions, process automation and effective business enablement.
+
+Spaulding Ridge is an official Oracle Netsuite partner offering implementation and integration services.
