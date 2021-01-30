@@ -1,1 +1,2 @@
-# NetSuite SuiteTalk SOAP Package for Laravel by Spaulding Ridge LLC
+# NetSuite SuiteTalk SOAP Package for Laravel
+## Spaulding Ridge LLC
