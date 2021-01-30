@@ -23,4 +23,4 @@ Spaulding Ridge SuiteTalk for Laravel:
 ## About Spaulding Ridge
 [Spaulding Ridge](https://spauldingridge) is a leading Advisory and Technology implementation firm. We are passionate about helping business leaders use technology and data to make better, faster decisions. Our clients maximize the return on their technology investment through tailored solutions, process automation and effective business enablement.
 
-Spaulding Ridge is an official Oracle Netsuite partner offering implementation and integration services.
+We are an official Oracle Netsuite partner offering implementation and integration services.
