@@ -27,7 +27,7 @@ class SuiteTalkPassportGenerator {
             		urlencode($consumer_secret) .'&'. 
             		urlencode($token_secret);
 		
-        	$method = 'sha1'; //can be sha256	
+        	$method = 'sha256'; //can be sha256	
 		$signature = base64_encode(hash_hmac($method, $baseString, $secret, true));
 		
         $tokenSignature = new Service\TokenPassportSignature($signature, "HMAC-SHA1");        
