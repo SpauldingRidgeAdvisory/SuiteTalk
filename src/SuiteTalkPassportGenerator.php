@@ -23,14 +23,14 @@ class SuiteTalkPassportGenerator {
             		urlencode($nonce) ."&". 
             		urlencode($timestamp);
 		
-        	$secret = 
+        $secret = 
             		urlencode($consumer_secret) .'&'. 
             		urlencode($token_secret);
 		
-        	$method = 'sha256'; //can be sha256	
+        $method = 'sha256'; //must be sha256 for NetSuite 2021.2 and beyond
 		$signature = base64_encode(hash_hmac($method, $baseString, $secret, true));
 		
-        $tokenSignature = new Service\TokenPassportSignature($signature, "HMAC-SHA1");        
+        $tokenSignature = new Service\TokenPassportSignature($signature, "HMAC-SHA256");        
         $tokenPassport = new Service\TokenPassport($nsaccount, $consumer_key, $token, $nonce, $timestamp, $tokenSignature);
 		
 		return $tokenPassport;
