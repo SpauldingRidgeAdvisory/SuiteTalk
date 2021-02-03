@@ -17,15 +17,15 @@ class SuiteTalkPassportGenerator {
 		$timestamp = time();
 
 		$baseString = 
-            		urlencode($nsaccount) ."&". 
-            		urlencode($consumer_key) ."&". 
-            		urlencode($token) ."&". 
-            		urlencode($nonce) ."&". 
-            		urlencode($timestamp);
+            urlencode($nsaccount) ."&". 
+            urlencode($consumer_key) ."&". 
+            urlencode($token) ."&". 
+            urlencode($nonce) ."&". 
+            urlencode($timestamp);
 		
         $secret = 
-            		urlencode($consumer_secret) .'&'. 
-            		urlencode($token_secret);
+            urlencode($consumer_secret) .'&'. 
+            urlencode($token_secret);
 		
         $method = 'sha256'; //must be sha256 for NetSuite 2021.2 and beyond
 		$signature = base64_encode(hash_hmac($method, $baseString, $secret, true));
