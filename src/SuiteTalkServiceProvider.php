@@ -3,14 +3,11 @@
 namespace SpauldingRidge\SuiteTalk;
 
 use Illuminate\Support\ServiceProvider;
-
+use SpauldingRidge\SuiteTalk\Console\GenerateClasses;
+use SpauldingRidge\SuiteTalk\Console\NSTest;
 
 class SuiteTalkServiceProvider extends ServiceProvider
 {
-
-    protected $commands=[
-		"SpauldingRidge\\SuiteTalk\\Console\\GenerateClasses"
-	];
     /**
      * Register services.
      *
@@ -41,6 +38,11 @@ class SuiteTalkServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                GenerateClasses::class,
+                NSTest::class
+            ]);
+        }
     }
 }
