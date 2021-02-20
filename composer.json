@@ -25,6 +25,7 @@
         "NetSuite",
         "SuiteTalk",
         "SOAP",
-        "ERP"
+        "ERP",
+        "Laravel"
     ]
 }
