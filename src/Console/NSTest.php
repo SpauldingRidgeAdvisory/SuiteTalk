@@ -22,7 +22,7 @@ class NSTest extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Test NetSuite Connectivity';
     
     
     private $NetSuiteService;
