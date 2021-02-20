@@ -20,5 +20,11 @@
                 "SpauldingRidge\\SuiteTalk\\SuiteTalkServiceProvider"
             ]
         }
-    }
+    },
+    "keywords" : [
+        "NetSuite",
+        "SuiteTalk",
+        "SOAP",
+        "ERP"
+    ]
 }
