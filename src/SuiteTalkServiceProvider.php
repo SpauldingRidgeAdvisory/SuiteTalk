@@ -44,5 +44,10 @@ class SuiteTalkServiceProvider extends ServiceProvider
                 NSTest::class
             ]);
         }
+        if ($this->app->runningInConsole()){
+            $this->publishes([
+                __DIR__ . '/../config/config.php' => config_path('suitetalk.php'),
+            ], 'config');
+        }
     }
 }

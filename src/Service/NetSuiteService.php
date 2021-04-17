@@ -22,6 +22,7 @@ class NetSuiteService extends \SoapClient
       'NullField' => 'SpauldingRidge\\SuiteTalk\\Service\\NullField',
       'SearchRecord' => 'SpauldingRidge\\SuiteTalk\\Service\\SearchRecord',
       'SearchRecordBasic' => 'SpauldingRidge\\SuiteTalk\\Service\\SearchRecordBasic',
+      'SearchRow' => 'SpauldingRidge\\SuiteTalk\\Service\\SearchRow',
       'SearchRowBasic' => 'SpauldingRidge\\SuiteTalk\\Service\\SearchRowBasic',
       'SearchResult' => 'SpauldingRidge\\SuiteTalk\\Service\\SearchResult',
       'AsyncStatusResult' => 'SpauldingRidge\\SuiteTalk\\Service\\AsyncStatusResult',
